@@ -3,10 +3,10 @@ name: Release
 on:
   push:
     # run only against tags
-#    tags:
-#      - 'v*'
-    branches:
-      - main
+    tags:
+      - 'v*'
+#    branches:
+#      - main
 
 permissions:
   contents: write
