@@ -4,7 +4,7 @@ before:
   hooks:
     - go mod tidy
 builds:
-  - id: "go-proxy"
+  - id: "proxy"
     main: ./cmd/
     binary: "go-proxy"
   - env:
