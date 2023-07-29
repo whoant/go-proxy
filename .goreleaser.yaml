@@ -4,8 +4,7 @@ before:
   hooks:
     - go mod tidy
 builds:
-  - main: ./cmd/
-    binary: "go-proxy"
+  - binary: "go-proxy"
     env:
       - CGO_ENABLED=0
     goos:
