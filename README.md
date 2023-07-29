@@ -1,5 +1,5 @@
 ## Go Proxy - Golang Proxy Server
-Go Proxy provides a CLI tool that create a proxy server
+Go Proxy provides a CLI tool that creates a proxy server
 ## Installation
 Go Proxy is available on Linux, macOS and Windows platforms.
 * Binaries for Linux, Windows and Mac are available as tarballs in the [release](https://github.com/whoant/go-proxy/releases) page.
