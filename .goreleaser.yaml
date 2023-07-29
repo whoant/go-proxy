@@ -4,10 +4,9 @@ before:
   hooks:
     - go mod tidy
 builds:
-  - id: "proxy"
-    main: ./cmd/main.go
+  - main: ./cmd/
     binary: "go-proxy"
-  - env:
+    env:
       - CGO_ENABLED=0
     goos:
       - linux
